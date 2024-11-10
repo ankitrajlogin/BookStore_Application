@@ -1,37 +1,38 @@
 
 # Bookstore Application (Personal Project) (Proof of Concept (PoC))
-bookstore-app/
-├── backend/
-│   ├── config/
-│   │   └── db.js
-│   ├── controllers/
-│   │   ├── authController.js
-│   │   ├── bookController.js
-│   │   └── bookmarkController.js
-│   ├── middleware/
-│   │   └── auth.js
-│   ├── models/
-│   │   ├── User.js
-│   │   ├── Book.js
-│   │   └── Bookmark.js
-│   ├── routes/
-│   │   ├── authRoutes.js
-│   │   ├── bookRoutes.js
-│   │   └── bookmarkRoutes.js
-│   ├── .env
-│   ├── server.js
-│   └── package.json
-└── frontend/
-    ├── src/
-    │   ├── components/
-    │   │   ├── AuthForm.js
-    │   │   ├── Dashboard.js
-    │   │   ├── BookList.js
-    │   │   └── BookForm.js
-    │   ├── App.js
-    │   ├── api.js
-    │   └── index.js
-    └── package.json
+bookstore-app/<br>
+├── backend/<br>
+│   ├── config/<br>
+│   │   └── db.js<br>
+│   ├── controllers/<br>
+│   │   ├── authController.js<br>
+│   │   ├── bookController.js<br>
+│   │   └── bookmarkController.js<br>
+│   ├── middleware/<br>
+│   │   └── auth.js<br>
+│   ├── models/<br>
+│   │   ├── User.js<br>
+│   │   ├── Book.js<br>
+│   │   └── Bookmark.js<br>
+│   ├── routes/<br>
+│   │   ├── authRoutes.js<br>
+│   │   ├── bookRoutes.js<br>
+│   │   └── bookmarkRoutes.js<br>
+│   ├── .env<br>
+│   ├── server.js<br>
+│   └── package.json<br>
+└── frontend/<br>
+    ├── src/<br>
+    │   ├── components/<br>
+    │   │   ├── AuthForm.js<br>
+    │   │   ├── Dashboard.js<br>
+    │   │   ├── BookList.js<br>
+    │   │   └── BookForm.js<br>
+    │   ├── App.js<br>
+    │   ├── api.js<br>
+    │   └── index.js<br>
+    └── package.json<br>
+
 
 
 
