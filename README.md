@@ -1,5 +1,38 @@
 
 # Bookstore Application (Personal Project) (Proof of Concept (PoC))
+bookstore-app/
+├── backend/
+│   ├── config/
+│   │   └── db.js
+│   ├── controllers/
+│   │   ├── authController.js
+│   │   ├── bookController.js
+│   │   └── bookmarkController.js
+│   ├── middleware/
+│   │   └── auth.js
+│   ├── models/
+│   │   ├── User.js
+│   │   ├── Book.js
+│   │   └── Bookmark.js
+│   ├── routes/
+│   │   ├── authRoutes.js
+│   │   ├── bookRoutes.js
+│   │   └── bookmarkRoutes.js
+│   ├── .env
+│   ├── server.js
+│   └── package.json
+└── frontend/
+    ├── src/
+    │   ├── components/
+    │   │   ├── AuthForm.js
+    │   │   ├── Dashboard.js
+    │   │   ├── BookList.js
+    │   │   └── BookForm.js
+    │   ├── App.js
+    │   ├── api.js
+    │   └── index.js
+    └── package.json
+
 
 ## Overview
 The Bookstore is a full-stack web application built using the MERN (MongoDB, Express, React, Node.js) stack. It provides a dynamic and interactive platform for users to browse books, register, and log in for personalized book recommendations. Guests can also explore the books, but registered users get access to exclusive content. The application features dark and light mode themes and ensures a responsive and intuitive user interface.
